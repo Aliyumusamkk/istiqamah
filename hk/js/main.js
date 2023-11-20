@@ -109,3 +109,15 @@ var myvideo = document.getElementById("myvideo");
 function stopVideo(){
     videoPlayer.style.display = "none";
 }
+
+// show and hide password
+var inputpassword = document.getElementById("inputpassword");
+var show_hide = document.getElementById("show_hide");
+
+show_hide.addEventListener('click', () =>{
+    if(inputpassword.type === 'password'){
+        inputpassword.type ='text'
+    }else {
+        inputpassword.type = 'password'
+    }
+})
