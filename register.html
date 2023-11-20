@@ -70,7 +70,13 @@
       .div-marquee span{
         color: gold;
       }
-     
+      .bg-color-linear{
+        background-color: #182b3a;
+        background-image: linear-gradient(315deg, #182b3a 0%, #20a4f3 74%);
+      }
+      .text-color{
+        color: #20a4f3;
+      }
     </style>
 
 </head>
@@ -105,7 +111,7 @@
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn">
             <a href="index.html" class="navbar-brand p-0">
-                <h1>AL-ISTI<span class="text-success">QAMAH.</span></h1>
+                <h1>AL-ISTI<span class="text-color">QAMAH.</span></h1>
             </a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
@@ -113,17 +119,17 @@
             <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
                 <div class="navbar-nav ms-auto">
                     <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="./aliyu.templet/n.html" class="nav-item nav-link">About</a>
+                    <a href="./aliyu.templet/dashboard.html" class="nav-item nav-link">About</a>
                     <a href="contact.html" class="nav-item nav-link">contact</a>
                     <a href="service.html" class="nav-item nav-link">Services</a>
                 </div>
-                <a href="" class="btn bg-success login-boder-radius text-white">Login<i class="fa fa-arrow-right ms-3"></i>
+                <a href="" class="btn bg-color-linear border-0 login-boder-radius text-white ">Login<i class="fa fa-arrow-right ms-3"></i>
                 </a>
            
         </nav>
         <!-- Navbar End -->
 
-       <div class="container-fluid text-white py-2 bg-success div-marquee">
+       <div class="container-fluid text-white py-2 bg-color-linear div-marquee">
         <marquee behavior="" direction="" scrollamount="3"><span>UPDATE!!!</span> Enjoy MTN, AITEL, GLO and ETISALAT DATA @ Cheep Rate on Al-Istiqamah Data Subscription APP</marquee> 
        </div>
         
@@ -185,7 +191,7 @@
                         </div>
 
                         <label for="" class="form-label">Password</label>
-                        <div class="input-group">
+                        <div class="mb-4 input-group">
                             <span class="input-group-text">
                                 <i class="bi bi-lock-fill"></i>
                             </span>
@@ -194,12 +200,11 @@
                                 <i class="bi bi-eye-fill"></i>
                             </span>
                         </div>
-
+                        <div class="pb-3 text-center ">
+                            <a href="" type="submit" class="btn btn-login text-white bg-color-linear">Register</a>
+                        </div>
                     </form>
                 </div>
-            </div>
-            <div class="pb-3 text-center">
-                <a href="" type="submit" class="btn btn-login btn-success">Register</a>
             </div>
             <div class="py-2 container text-center">
                 <p>Already Registerd? <a href="index.html">Login</a></p>
