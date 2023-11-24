@@ -131,7 +131,10 @@
 /*** Header ***/
 
 .image {
-    background: #182b3a;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)) , url(../img/mtn.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 30vh;
 }
 
